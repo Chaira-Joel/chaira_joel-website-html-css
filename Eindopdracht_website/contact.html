@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Sonic the Hedgehog</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <h1 class="logo.png">Sonic the Hedgehog</h1>
+        <img src="logo.png" width="100" />
+      </div>
+   
+  
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="geschiedenis.html">Geschiedenis</a></li>
+          <li><a href="spellenreeks.html">Spellenreeks</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+      </nav>
+    </header>
+
+    <main>
+      <div class="grid-container">
+        <div class="introductie">
+          <h2>Contactgegevens</h2>
+          <p>
+            <strong>Wil je meer weten over Sonic the Hedgehog? Vul dan hier je gegevens in!</strong>
+          </p>
+          <main class="soft-border">
+            <form name="contacting" method="POST" data-netlify="true">
+              <p>
+                <label for="fname">Naam:</label><br />
+                <input type="text" id="fname" name="fname" value="Voornaam" />
+              </p>
+      
+              <p>
+                <label for="lname">Achternaam:</label><br />
+                <input type="text" id="lname" name="lname" value="Achternaam" />
+              </p>
+      
+              <p>
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email " value="Email" />
+              </p>
+              <p>
+                <label for="telefoon">Telefoonnummer:</label><br />
+                <input         
+                  type="number"
+                  id="Telefoonnummer"
+                  name="Telefoonnummer "
+                  value="Telefoonnummer"  
+                />
+              </p>
+      
+              <p>
+                <label for="leeftijd">Leeftijd:</label><br />
+                <input
+                  type="number"
+                  id="leeftijd"
+                  name="leeftijd "
+                  value="leeftijd"
+                />
+              </p>
+      
+              <p>
+                <label for="geboortedatum">Geboortedatum:</label><br />
+                <input
+                  type="date"
+                  id="geboortedatum"
+                  name="geboortedatum "
+                  value="geboortedatum"
+                />
+              </p>
+      
+              <p>
+                <input type="radio" id="man" name="gender" value="man" />
+                <label for="male">Man</label><br />
+      
+                <input type="radio" id="vrouw" name="gender" value="vrouw" />
+                <label for="vrouw">Vrouw</label><br />
+              </p>
+      
+              <p>
+                <label for="favogame">Favoriete game(s):</label><br />
+
+                <input type="checkbox" id="Sonic1" name="game" value="Sonic1" />
+                <label for="Sonic1">Sonic the Hedgehog 1</label><br />
+                
+                <input type="checkbox" id="Sonic1" name="game" value="Sonic1" />
+                <label for="Sonic1">Sonic the Hedgehog 2</label><br />
+
+                <input type="checkbox" id="Sonic1" name="game" value="Sonic1" />
+                <label for="Sonic1">Sonic the Hedgehog 3</label><br />           
+      
+              <p>
+                <label for="gedachten">Deel je gedachten:</label><br />
+      
+                <textarea
+                  id="gedachten"
+                  name="gedachten"
+                  rows="4"
+                  cols="40"
+                ></textarea>
+              </p>
+      
+              <p>
+                <input type="submit" />
+              </p>
+
+            </form>
+          
+
+              <div class="introfoto">
+                <img src="rocketshoes.png" width="200" />
+              </div>  
+            </div>
+            
+             
+      
+    </main>
+
+    <footer class="footer">
+      <div class="footertekst">Deze website is gemaakt door Chaïra Joel</div>
+    </div>
+  </footer>
+   
+  </body>
+</html>
